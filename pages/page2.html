@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page two</title>
+    <!-- plugin links  -->
+    <link rel="stylesheet" href="../vendor/menu/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/downlode/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/tabs/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/slider/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/modal-form/jquery-ui.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <div class="container my-3">
+        <a class="btn btn-dark me-5" href="../index.html">Page 1</a>
+        <a class="btn btn-dark me-5" href="page2.html">Page 2</a>
+        <a class="btn btn-dark" href="page3.html">Page 3</a>
+    </div>
+    <section class="container">
+        <!-- Example 1  -->
+        <h1>Example 1</h1>
+        <h3 class="text-danger">Menu plugin</h3>
+        <ul id="menu">
+            <li><div>web design</div></li>
+            <li><div>web development</div></li>
+            <li><div>graphics design</div>
+              <ul>
+                <li><div>logo design</div></li>
+                <li><div>card design</div></li>
+                <li><div>benar design</div></li>
+              </ul>
+            </li>
+            <li><div>degital marketing</div></li>
+            <li><div>trading</div>
+              <ul>
+                <li><div>market</div></li>
+                <li><div>global</div></li>
+                <li><div>international</div></li>
+              </ul>
+            </li>
+          </ul>
+          <br><hr>
+
+          <!-- Example 2 -->
+          <h1>Example 2</h1>
+          <div id="dialog" title="File Download">
+            <div class="progress-label">Starting download...</div>
+            <div id="progressbar"></div>
+          </div>
+          <button id="downloadButton">Start Download</button>
+        <br><hr>
+
+        <!-- Example 3 -->
+        <h1>Example 3</h1>
+        <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Web design</a></li>
+              <li><a href="#tabs-2">Web development</a></li>
+              <li><a href="#tabs-3">Graphics design</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolorum omnis ea in excepturi dignissimos. Asperiores eum facere officia sit rerum natus necessitatibus est provident eligendi, hic architecto vero consequuntur.</p>
+            </div>
+            <div id="tabs-2">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nostrum asperiores porro aperiam a maxime id in labore perferendis. Optio ratione nostrum hic eos laboriosam perspiciatis officiis ipsa quasi eligendi.</p>
+            </div>
+            <div id="tabs-3">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sequi officia id voluptatum quisquam praesentium totam placeat accusantium error quos quam, commodi, dolorem doloribus maiores consequuntur nemo minus nobis voluptates fugit delectus, quas veniam facere provident? Dolore fugiat quis est commodi reiciendis repellendus dignissimos. Illo fugiat accusantium alias voluptates voluptatum..</p>
+            </div>
+        </div>
+        <br><hr>
+
+        <!-- Example 4 -->
+        <h1>Example 4</h1>
+        <div id="slider"></div>
+        <br><hr>
+
+        <!-- Example 5  -->
+        <h1>Example 5</h1>
+        <h3>modal form</h3>
+        <div id="dialog-form" title="Create new user">
+          <p class="validateTips">All form fields are required.</p>
+         
+          <form>
+            <fieldset>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" value="Jane Smith" class="text ui-widget-content ui-corner-all">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" value="jane@smith.com" class="text ui-widget-content ui-corner-all">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
+         
+              <!-- Allow form submission with keyboard without duplicating the dialog button -->
+              <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+          </form>
+        </div>
+         
+         
+        <div id="users-contain" class="ui-widget">
+          <h1>Existing Users:</h1>
+          <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+              <tr class="ui-widget-header ">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>hello</td>
+                <td>helloScript@.com</td>
+                <td>hello</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button id="create-user">Create new user</button>
+
+
+
+
+    </section>
+    
+
+
+    <!-- jquery links  -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- plugin links  -->
+    <script src="../vendor/menu/jquery-ui.js"></script>
+    <script src="../vendor/downlode/jquery-ui.js"></script>
+    <script src="../vendor/tabs/jquery-ui.js"></script>
+    <script src="../vendor/slider/jquery-ui.js"></script>
+    <script src="../vendor/modal-form/jquery-ui.js"></script>
+    <!-- script links -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="page2.js"></script>
+</body>
+</html>

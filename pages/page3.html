@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page three</title>
+    <!-- plugin links -->
+    <link rel="stylesheet" href="../vendor/color-animetion/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/date-picker/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/accordion/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/toggle/jquery-ui.css">
+    <link rel="stylesheet" href="../vendor/trush/jquery-ui.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <div class="container my-3">
+        <a class="btn btn-dark me-5" href="../index.html">Page 1</a>
+        <a class="btn btn-dark me-5" href="page2.html">Page 2</a>
+        <a class="btn btn-dark" href="page3.html">Page 3</a>
+    </div>
+    <section class="container">
+        <!-- Example 1  -->
+        <h1>Example 1</h1>
+        <div class="toggler toggler-box">
+            <div id="effect-item" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+              </p>
+            </div>
+        </div>
+           
+          <button id="button-toggler" class="ui-state-default ui-corner-all">Toggle Effect</button>
+        <br><hr>
+
+
+        <!-- Example 2  -->
+        <h1>Example 2</h1>
+        <p>Type Date: <input type="text" id="datepicker"></p>
+        <br><hr>
+
+        <!-- Example 3  -->
+        <h1>Example 3</h1>
+        <h3>accordion</h3>
+        
+        
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+          <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+        </div>
+      </div>
+      <br><hr>
+
+        <!-- Example 4  -->
+        <h1>Example 4</h1>
+        <h1>Toggle</h1>
+        <div class="toggler toggler-item">
+          <div id="effect-tg" class="ui-widget-content ui-corner-all">
+            <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+            <p>
+              Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+            </p>
+          </div>
+        </div>
+         
+        <select name="effects" id="effectTypesList">
+          <option value="blind">Blind</option>
+          <option value="bounce">Bounce</option>
+          <option value="clip">Clip</option>
+          <option value="drop">Drop</option>
+          <option value="explode">Explode</option>
+          <option value="fade">Fade</option>
+          <option value="fold">Fold</option>
+          <option value="highlight">Highlight</option>
+          <option value="puff">Puff</option>
+          <option value="pulsate">Pulsate</option>
+          <option value="scale">Scale</option>
+          <option value="shake">Shake</option>
+          <option value="size">Size</option>
+          <option value="slide">Slide</option>
+        </select>
+         
+        <button id="button-trg" class="ui-state-default ui-corner-all">Run Effect</button>
+        <br><hr>
+         
+
+        <!-- Example 5  -->
+        <h1>Example 5</h1>
+        <div class="ui-widget ui-helper-clearfix">
+ 
+          <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+            <li class="ui-widget-content ui-corner-tr">
+              <h5 class="ui-widget-header">High Tatras</h5>
+              <img src="../images/car.webp" alt="The peaks of High Tatras" width="96" height="72">
+              <a href="images/high_tatras.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+            <li class="ui-widget-content ui-corner-tr">
+              <h5 class="ui-widget-header">High Tatras 2</h5>
+              <img src="../images/car.webp" alt="The chalet at the Green mountain lake" width="96" height="72">
+              <a href="images/high_tatras2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+            <li class="ui-widget-content ui-corner-tr">
+              <h5 class="ui-widget-header">High Tatras 3</h5>
+              <img src="../images/car.webp" alt="Planning the ascent" width="96" height="72">
+              <a href="images/high_tatras3.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+            <li class="ui-widget-content ui-corner-tr">
+              <h5 class="ui-widget-header">High Tatras 4</h5>
+              <img src="../images/car.webp" alt="On top of Kozi kopka" width="96" height="72">
+              <a href="images/high_tatras4.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+            </li>
+          </ul>
+           
+          <div id="trash" class="ui-widget-content ui-state-default">
+            <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+          </div>
+           
+          </div>
+
+           
+
+
+
+
+
+    </section>
+    
+
+    <!-- jquery links  -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- plugin links -->
+    <script src="../vendor/color-animetion/jquery-ui.js"></script>
+    <script src="../vendor/date-picker/jquery-ui.js"></script>
+    <script src="../vendor/accordion/jquery-ui.js"></script>
+    <script src="../vendor/toggle/jquery-ui.js"></script>
+    <script src="../vendor/trush/jquery-ui.js"></script>
+    <!-- script links -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="page3.js"></script>
+</body>
+</html>
